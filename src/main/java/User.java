@@ -22,5 +22,6 @@ public class User {
         System.out.println("name = " + name);
     
         System.out.println("user = " + user);
+        System.out.println("name = " + name);
     }
 }

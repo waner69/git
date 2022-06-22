@@ -15,5 +15,7 @@ public class User {
         user.setId(19);
         Integer id = user.getId();
         System.out.println("id = " + id);
+    
+        System.out.println("user = " + user);
     }
 }

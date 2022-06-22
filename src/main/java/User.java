@@ -20,7 +20,6 @@ public class User {
         String name = user.getName();
         System.out.println("id = " + id);
         System.out.println("name = " + name);
-    
         System.out.println("user = " + user);
         System.out.println("name = " + name);
     }

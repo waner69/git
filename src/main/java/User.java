@@ -10,11 +10,16 @@ import lombok.Data;
 public class User {
     private Integer id;
     
+    private String name;
+    
     public static void main(String[] args) {
         User user = new User();
         user.setId(19);
+        user.setName("lzy");
         Integer id = user.getId();
+        String name = user.getName();
         System.out.println("id = " + id);
+        System.out.println("name = " + name);
     
         System.out.println("user = " + user);
     }

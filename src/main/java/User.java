@@ -6,6 +6,8 @@
 
 import lombok.Data;
 
+import java.util.Arrays;
+
 @Data
 public class User {
     private Integer id;
@@ -21,5 +23,6 @@ public class User {
         System.out.println("id = " + id);
         System.out.println("name = " + name);
         System.out.println("user = " + user);
+        System.out.println("args = " + Arrays.toString(args));
     }
 }

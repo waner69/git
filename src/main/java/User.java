@@ -18,13 +18,6 @@ public class User {
         User user = new User();
         user.setId(19);
         user.setName("lzy");
-        Integer id = user.getId();
-        String name = user.getName();
-        System.out.println("id = " + id);
-        System.out.println("name = " + name);
         System.out.println("user = " + user);
-        System.out.println("name = " + name);
-        System.out.println("user = " + user);
-        System.out.println("args = " + Arrays.toString(args));
     }
 }

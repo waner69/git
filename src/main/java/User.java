@@ -18,6 +18,5 @@ public class User {
         user.setName("lzy");
         System.out.println("user = " + user);
         System.out.println("name = " + user.getName());
-        // git
     }
 }

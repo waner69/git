@@ -18,6 +18,5 @@ public class User {
         user.setName("lzy");
         System.out.println("name = " + user.getName());
         System.out.println();
-        System.out.println();
     }
 }

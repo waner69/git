@@ -16,8 +16,6 @@ public class User {
         User user = new User();
         user.setId(19);
         user.setName("lzy");
-        System.out.println("user = " + user);
         System.out.println("name = " + user.getName());
-        // test111
     }
 }

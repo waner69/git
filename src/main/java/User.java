@@ -13,9 +13,6 @@ public class User {
     private String name;
     
     public static void main(String[] args) {
-        User user = new User();
-        user.setId(19);
-        user.setName("lzy");
-        // GitHub修改
+        System.out.println(1);
     }
 }

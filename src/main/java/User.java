@@ -15,5 +15,6 @@ public class User {
     public static void main(String[] args) {
         User user = new User();
         user.setId(19);
+        user.setName("lzy");
     }
 }

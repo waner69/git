@@ -11,9 +11,5 @@ public class User {
     private Integer id;
     
     public static void main(String[] args) {
-        User user = new User();
-        user.setId(19);
-        Integer id = user.getId();
-        System.out.println("id = " + id);
     }
 }
